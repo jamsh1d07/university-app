@@ -1,0 +1,62 @@
+GET localhost/faculty
+Content-Type: application/json
+
+###
+
+POST localhost/faculty
+Content-Type: application/json
+
+{
+  "name": "KIF",
+  "unv_id": 2
+}
+
+###
+PUT localhost/faculty/1
+Content-Type: application/json
+
+{
+  "name": "AX fakultet",
+  "unv_id": 9
+}
+
+###
+DELETE localhost/faculty/1
+GET localhost/faculty
+Content-Type: application/json
+
+###
+GET localhost/group
+Content-Type: application/json
+
+###
+GET localhost/faculty/byFaculty/2
+Content-Type: application/json
+
+###
+
+POST localhost/group
+Content-Type: application/json
+
+{
+  "name": "5-22",
+  "faculty_id": 2
+}
+
+###
+PUT localhost/group/1
+Content-Type: application/json
+
+{
+  "name": "AX fakultet",
+  "unv_id": 9
+}
+
+###
+DELETE localhost/group/1
+
+###
+
+#GET localhost/faculty/byUniversityName?name=PDP
+
+
